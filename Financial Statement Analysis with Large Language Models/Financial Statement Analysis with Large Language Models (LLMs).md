@@ -3,7 +3,7 @@
 
 This study explores the potential of Large Language Models (LLMs) in analyzing financial statements and predicting future earnings. It compares LLM performance with human analysts and state-of-the-art (SOTA) machine learning (ML) models, examining the broader implications for the future of financial analysis.
 
-![Financial Statement Analysis with Large Language Models](images/Financial_Statement_Analysis_with_LLMs.png)
+![Financial Statement Analysis with Large Language Models](image.png)
 
 ## The Role of Financial Statement Analysis (FSA)
 The paper emphasizes the crucial role of Financial Statement Analysis (FSA) in financial markets, especially for guiding investment decisions. Predicting a firm’s earnings is one of the primary goals of FSA, as it influences stock market recommendations and provides essential insights for investors.
@@ -57,7 +57,7 @@ To validate this, the authors encoded LLM-generated narratives into 768-dimensio
 
 Bu çalışma, LLM'lerin (Büyük Dil Modelleri) finansal tabloları etkili bir şekilde analiz edip gelecekteki kazançları tahmin edebilme potansiyelini araştırarak, performanslarını insan analistler ve SOTA (en güncel) makine öğrenimi modelleri ile karşılaştırmayı ve finansal analiz için gelecek potansiyelini değerlendirmeyi amaçlamaktadır.
 
-![Büyük Dil Modelleri ile Finansal Tablo Analizi](images/Financial_Statement_Analysis_with_LLMs.png)
+![Büyük Dil Modelleri ile Finansal Tablo Analizi](image.png)
 
 ## FSA
 Makale, finansal piyasalarda bilinçli karar alma süreci için Finansal Tablo Analizi'nin (FSA) önemini vurguluyor: FSA'nın en önemli amaçlarından biri, bir firmanın kazançlarını tahmin etmektir. Bu, hem borsa tavsiyeleri için bir girdi olarak hem de yatırımcıları bilgilendiren bir çıktı olarak hizmet eder.
