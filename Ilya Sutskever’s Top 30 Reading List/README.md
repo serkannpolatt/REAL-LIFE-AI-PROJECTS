@@ -13,7 +13,7 @@
 - **Neural Message Passing for Quantum Chemistry.** Justin Gilmer, et al. [[Paper]](https://arxiv.org/pdf/1704.01212)
 - **Attention Is All You Need.** Ashish Vaswani, et al. [[Paper]](https://arxiv.org/pdf/1706.03762)
 - **Neural Machine Translation by Jointly Learning to Align and Translate.** Dzmitry Bahdanau, et al. [[Paper]](https://arxiv.org/pdf/1409.0473)
-- **Identity Mappings in Deep Residual Networks.** Kaiming He, et al. [[Paper](https://arxiv.org/pdf/1603.05027)
+- **Identity Mappings in Deep Residual Networks.** Kaiming He, et al. [[Paper]](https://arxiv.org/pdf/1603.05027)
 - **A simple neural network module for relational reasoning.** Adam Santoro, et al. [[Paper]](https://arxiv.org/pdf/1706.01427)
 - **Variational Lossy Autoencoder.** Xi Chen, et al. [[Paper]](https://arxiv.org/pdf/1611.02731)
 - **Relational recurrent neural networks.** Adam Santoro, et al. [[Paper]](https://arxiv.org/pdf/1806.01822)
