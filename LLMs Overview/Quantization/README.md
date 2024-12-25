@@ -167,13 +167,13 @@ The way GGML quantizes weights is not as sophisticated as GPTQ’s. Basically, i
 ---
 
 ## İçerik
-- **[Kuantizasyon Türleri](#kuantizasyon-türleri)**
-- **[GPTQ: Generatif Modellerde Eğitim Sonrası Kuantizasyon](#gptq-generatif-modellerde-eğitim-sonrası-kuantizasyon)**
-- **[AutoGPTQ Entegrasyonu](#autogptq-entegrasyonu)**
+- **[Kuantizasyon Türleri](#Niceleme-Türleri)**
+- **[GPTQ: Generatif Modellerde Eğitim Sonrası Kuantizasyon](#GPTQ:-Üretici-Modellerde-Eğitim-Sonrası-Niceleme)**
+- **[AutoGPTQ Entegrasyonu](#AutoGPTQ-Entegrasyonu)**
 - **[GGML](#ggml)**
-- **[NF4 vs. GGML vs. GPTQ](#nf4-vs-ggml-vs-gptq)**
-- **[Kuantizasyon vs. Budama vs. Bilgi Aktarımı](#kuantizasyon-vs-budama-vs-bilgi-aktarımı)**
-- **[Özet](#özet)**
+- **[NF4 vs. GGML vs. GPTQ](#NF4-vs.-GGML-vs.-GPTQ)**
+- **[Kuantizasyon vs. Budama vs. Bilgi Aktarımı](#Kuantizasyon-vs.-Pruning-vs.-Bilgi-Distilasyonu)**
+- **[Özet](#Özet)**
 
 
 ---
@@ -325,7 +325,7 @@ GGML'in ağırlıkları kuantize etme yöntemi, GPTQ'nun yöntemine göre daha k
 </kbd>
 
 ---
-## Summary
+## Özet
 <img src="https://github.com/ElDokmak/LLMs/assets/85394315/15cf3903-455c-4811-8f7e-14b6eaf30237">
 
 ---
