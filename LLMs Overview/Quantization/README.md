@@ -168,7 +168,7 @@ The way GGML quantizes weights is not as sophisticated as GPTQ’s. Basically, i
 
 ## İçerik
 - **[Kuantizasyon Türleri](#Niceleme-Türleri)**
-- **[GPTQ: Generatif Modellerde Eğitim Sonrası Kuantizasyon](#GPTQ:-Üretici-Modellerde-Eğitim-Sonrası-Niceleme)**
+- **[GPTQ: Generatif Modellerde Eğitim Sonrası Kuantizasyon](#GPTQ-Üretici-Modellerde-Eğitim-Sonrası-Niceleme)**
 - **[AutoGPTQ Entegrasyonu](#AutoGPTQ-Entegrasyonu)**
 - **[GGML](#ggml)**
 - **[NF4 vs. GGML vs. GPTQ](#NF4-vs.-GGML-vs.-GPTQ)**
@@ -192,7 +192,7 @@ The way GGML quantizes weights is not as sophisticated as GPTQ’s. Basically, i
 
 ---
 
-## GPTQ: Üretici Modellerde Eğitim Sonrası Niceleme
+## GPTQ Üretici Modellerde Eğitim Sonrası Niceleme
 
 * **GPTQ**, yüz milyarlarca parametreye sahip modellerde bile uygulanabilecek kadar verimlidir ve bu modelleri parametre başına yalnızca 2, 3 veya 4 bite sıkıştırarak kayda değer bir doğruluk kaybı olmaksızın olağanüstü hassasiyet elde edebilir.
 * **GPTQ'nun farkı**, karışık bir int4/fp16 kuantizasyon şeması benimsemesidir. Bu şemada, model ağırlıkları int4 olarak kuantize edilirken, aktivasyonlar float16 olarak korunur. Çıkarım sırasında ağırlıklar dinamik olarak dekuantize edilir ve gerçek hesaplamalar float16 olarak gerçekleştirilir.
