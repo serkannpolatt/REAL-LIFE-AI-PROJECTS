@@ -867,7 +867,7 @@ LongLoRA, eğitim saatleri açısından LoRA ve Tam Fine-Tuning'e göre önemli 
 
 
 ---
-## LoftQ LoRA (İnce Ayarına Duyarlı Nicemelendirme)
+## LoftQ (LoRA İnce Ayarına Duyarlı Nicemelendirme)
 > Son araştırmalar, büyük dil modellerini sıkıştırarak daha verimli ve pratik hale getirmeye odaklanmıştır. Popüler bir yaklaşım, modeli nicemlemek (QAT, PTQ) ve doğruluğu koruyarak modelin boyutunu küçültmektir, bu da Nicemeleme (Quantization) bölümünde açıklanmıştır.
 
 LoftQ yöntemi, nicemeleme işleminden sonra gelen "fine-tuning" sürecini dikkate alarak bu yaklaşımı geliştirir. Modeli, fine-tuning için iyi bir başlangıç noktası sağlayacak şekilde nicemeler.
