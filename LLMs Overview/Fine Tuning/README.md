@@ -3,7 +3,7 @@
 * **[LoRA](#lora-low-rank-adaption-for-llms)**
 * **[QLoRA](#qlora-quantized-llms-and-low-rank-adaption)**
 * **[QA-LoRA](#qa-lora-quantization-aware-low-rank-adaptation)**
-* **[LongLoRA](#longlora)**
+* **[LongLoRA](#LongLoRA-Long-Sequence-Low-Rank-Adaptation)**
 * **[LoftQ](#loftq-lora-fine-tuning-aware-quantization)**
 * **[NEFTune](#neftune-noisy-embeddings-improve-instruction-finetuning)**
 
@@ -364,7 +364,7 @@ factors**, respectively; ⌊·⌉ denotes the integer rounding operation. All el
 
 
 ---
-## LongLoRA
+## LongLoRA-Long Sequence Low-Rank Adaptation
 An efficient fine-tuning approach that extends the context sizes of pre-trained large language models (LLMs), with limited computation cost
 
 * LoRA modifies the linear projection layers in self-attention blocks by utilizing low-rank matrices, which are generally efficient and reduce the number of trainable parameters.
@@ -468,12 +468,12 @@ trainer.train()
 # Türkçe
 
 # İçerik
-* **[LoRA](#LoRA-(LLM'ler-için-Düşük-Dereceli-Uyarlama))**
-* **[QLoRA](#QLoRA-(Niceltilmiş-LLM'ler-ve-Düşük-Rank-Uyarlaması))**
-* **[QA-LoRA](#QA-LoRA-(Nicemelendirme-Duyarlı-Düşük-Sıralı-Adaptasyon))**
-* **[LongLoRA](#LongLoRA)**
-* **[LoftQ](#LoftQ-(LoRA-İnce-Ayarına-Duyarlı-Nicemelendirme))**
-* **[NEFTune](#NEFTune-(Gürültülü-Gömülü-Temsiller,-Talimat-İnce-Ayarını-İyileştirir))**
+* **[LoRA](#LoRA-LLMler-için-Düşük-Dereceli-Uyarlama)**
+* **[QLoRA](#QLoRA-Niceltilmiş-LLMler-ve-Düşük-Rank-Uyarlaması)**
+* **[QA-LoRA](#QA-LoRA-Nicemelendirme-Duyarlı-Düşük-Sıralı-Adaptasyon)**
+* **[LongLoRA](#LongLoRA-Uzun-Sekanslı-Düşük-Rank-Adaptasyonu)**
+* **[LoftQ](#LoftQ-LoRA-İnce-Ayarına-Duyarlı-Nicemelendirme)**
+* **[NEFTune](#NEFTune-Gürültülü-Gömülü-Temsiller-Talimat-İnce-Ayarını-İyileştirir)**
 
 ## LoRA (LLM'ler için Düşük Dereceli Uyarlama)
 LoRA, büyük dil modellerinin eğitimini hızlandıran ve daha az bellek tüketen bir eğitim yöntemidir. Mevcut ağırlıklara çiftler halinde eğitilebilir dereceli ayrışım ağırlık matrisleri (Güncelleme matrisleri olarak adlandırılır) ekler ve yalnızca bu yeni eklenen ağırlıkları eğitir.
@@ -619,7 +619,7 @@ qa_model = PeftModel.from_pretrained(model, peft_model_id)
 > Daha fazla bilgi için [huggingface](https://huggingface.co/docs/peft/conceptual_guides/lora) kontrol edin.
 
 ---
-## QLoRA-Niceltilmiş LLM'ler ve Düşük Rank Uyarlaması
+## QLoRA (Niceltilmiş LLM'ler ve Düşük Rank Uyarlaması)
 <kbd>
  <img src="https://miro.medium.com/v2/resize:fit:1400/0*oV_KwvWnFYzuWzlz.png">
 </kbd>
@@ -822,7 +822,7 @@ LoRA'da çıktı y = (W + s · AB)<sup>⊤</sup>x şeklinde ifade edilir, burada
 
 
 ---
-## LongLoRA
+## LongLoRA (Uzun Sekanslı Düşük-Rank Adaptasyonu)
 Önceden eğitilmiş büyük dil modellerinin (LLM'ler) bağlam boyutlarını genişleten verimli bir ince ayar yaklaşımı, sınırlı hesaplama maliyeti ile
 
 * LoRA, düşük dereceli matrisler kullanarak kendiliğinden dikkat katmanlarındaki doğrusal projeksiyon katmanlarını değiştirir. Bu, genellikle verimlidir ve eğitilebilir parametre sayısını azaltır.
@@ -867,7 +867,7 @@ LongLoRA, eğitim saatleri açısından LoRA ve Tam Fine-Tuning'e göre önemli 
 
 
 ---
-## LoftQ (LoRA İnce Ayarına Duyarlı Nicemelendirme)
+## LoftQ LoRA (İnce Ayarına Duyarlı Nicemelendirme)
 > Son araştırmalar, büyük dil modellerini sıkıştırarak daha verimli ve pratik hale getirmeye odaklanmıştır. Popüler bir yaklaşım, modeli nicemlemek (QAT, PTQ) ve doğruluğu koruyarak modelin boyutunu küçültmektir, bu da Nicemeleme (Quantization) bölümünde açıklanmıştır.
 
 LoftQ yöntemi, nicemeleme işleminden sonra gelen "fine-tuning" sürecini dikkate alarak bu yaklaşımı geliştirir. Modeli, fine-tuning için iyi bir başlangıç noktası sağlayacak şekilde nicemeler.
