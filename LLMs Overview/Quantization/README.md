@@ -5,7 +5,7 @@
 - **[Types of Quantization](#types-of-quantization)**
 - **[GPTQ: Post-training quantization on generative models](#gptq-post-training-quantization-on-generative-models)**
 - **[AutoGPTQ Integration](#autogptq-integration)**
-- **[GGML](#ggml)**
+- **[GGML](#GGML-General-Graphical-Model-Library)**
 - **[NF4 vs. GGML vs. GPTQ](#nf4-vs-ggml-vs-gptq)**
 - **[Quantization vs. Pruning vs. Knowledge Distillation](#quantization-vs-pruning-vs-knowledge-distillation)**
 - **[Summary](#Summary)**
@@ -102,7 +102,7 @@ quantized_model = load_quantized_model(
 
 
 ---
-## GGML
+## GGML (General Graphical Model Library)
 GGML is a C library focused on machine learning. It was designed to be used in conjunction with the llama.cpp library.
 * The library is written in C/C++ for efficient inference of Llama models. It can load GGML models and run them on a CPU. Originally, this was the main difference with GPTQ models, which are loaded and run on a GPU.
 
@@ -170,8 +170,8 @@ The way GGML quantizes weights is not as sophisticated as GPTQ’s. Basically, i
 - **[Niceleme Türleri](#Niceleme-Türleri)**
 - **[GPTQ: Generatif Modellerde Eğitim Sonrası Kuantizasyon](#GPTQ-Üretici-Modellerde-Eğitim-Sonrası-Niceleme)**
 - **[AutoGPTQ Entegrasyonu](#AutoGPTQ-Entegrasyonu)**
-- **[GGML](#GGML)**
-- **[NF4 vs. GGML vs. GPTQ](#NF4-vs.-GGML-vs.-GPTQ)**
+- **[GGML](#GGML-Genelleştirilmiş-Grafiksel-Model-Kitaplığı)**
+- **[NF4 vs. GGML vs. GPTQ](#NF4-GGML-GPTQ)**
 - **[Kuantizasyon vs. Budama vs. Bilgi Aktarımı](#Kuantizasyon-vs.-Pruning-vs.-Bilgi-Distilasyonu)**
 - **[Özet](#Özet)**
 
@@ -270,7 +270,7 @@ quantized_model = load_quantized_model(
 
 
 ---
-## GGML
+## GGML (Genelleştirilmiş Grafiksel Model Kitaplığı)
 GGML, makine öğrenimi üzerine odaklanmış bir C kütüphanesidir. llama.cpp kütüphanesiyle birlikte kullanılmak üzere tasarlanmıştır.
 * Kütüphane, Llama modellerinin verimli bir şekilde çıkarım yapılabilmesi için C/C++ dilinde yazılmıştır. GGML modellerini yükleyebilir ve bunları bir CPU üzerinde çalıştırabilir. Başlangıçta bu, GPTQ modelleriyle olan ana farkıydı, çünkü GPTQ modelleri bir GPU üzerinde yüklenip çalıştırılır.
 
@@ -285,7 +285,7 @@ GGML'in ağırlıkları kuantize etme yöntemi, GPTQ'nun yöntemine göre daha k
 
 
 ---
-## NF4 vs. GGML vs. GPTQ
+## NF4, GGML, GPTQ
 <kbd>
    <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*yz7rSvjKtukVXdVHwxGfAQ.png">
 </kbd>
