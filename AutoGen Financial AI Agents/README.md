@@ -1,9 +1,9 @@
 ### EN
 ### Learn How to Configure an AutoGen Financial AI Agent
 
-👉 In this notebook, you'll learn step-by-step how to create your own financial AI agent using AutoGen, with clear and practical examples to guide you through the entire process.
+In this notebook, you'll learn step-by-step how to create your own financial AI agent using AutoGen, with clear and practical examples to guide you through the entire process.
 
-#### 👉 Setup and Instructions:
+#### Setup and Instructions:
 🔹 **Agent Setup**:  
 I created two key agents: AssistantAgent and UserProxyAgent (more on that below).
 
@@ -22,7 +22,7 @@ Here’s a quick overview of the workflow:
 4- Plot and save the strategy in 'nvidia_trading_strategy.png'.
 """
 
-#### 👉 Meet the Agents:
+#### Meet the Agents:
 
 🔹 **AssistantAgent**  
 Acts like a typical AI assistant powered by a large language model (LLM). It can generate and refine Python code or summarize texts without needing human input or code execution.
@@ -36,7 +36,7 @@ This agent is more advanced. It can:
 
 More explanation in the notebook.
 
-#### 👉Key Takeaways:
+#### Key Takeaways:
 
 1. **Easy to Implement**: The setup process is straightforward and user-friendly.
 
@@ -49,9 +49,9 @@ More explanation in the notebook.
 ### TR
 ### NASIL YAPILIR: AutoGen Finansal AI Ajanı Yapılandırma
 
-👉 Bu not defterinde, AutoGen kullanarak kendi finansal AI ajanınızı nasıl oluşturacağınızı, sizi adım adım yönlendirecek net ve pratik örneklerle öğreneceksiniz.
+Bu not defterinde, AutoGen kullanarak kendi finansal AI ajanınızı nasıl oluşturacağınızı, sizi adım adım yönlendirecek net ve pratik örneklerle öğreneceksiniz.
 
-#### 👉 Kurulum ve Talimatlar:
+#### Kurulum ve Talimatlar:
 🔹 **Ajan Kurulumu**:  
 İki ana ajan oluşturdum: AssistantAgent ve UserProxyAgent (aşağıda daha fazla bilgi bulabilirsiniz).
 
@@ -70,7 +70,7 @@ Ajanlar, bir momentum ticaret stratejisi oluşturur, Python ile uygular, NVIDIA'
 4- Stratejiyi 'nvidia_trading_strategy.png' olarak çizip kaydedin.
 """
 
-#### 👉 Ajanlarla Tanışın:
+#### Ajanlarla Tanışın:
 
 🔹 **AssistantAgent**  
 Büyük bir dil modeli (LLM) tarafından güçlendirilen tipik bir AI asistanı gibi çalışır. Python kodu üretebilir, düzenleyebilir veya metinleri özetleyebilir, insan girişi veya kod çalıştırılmasına gerek olmadan.
@@ -84,7 +84,7 @@ Bu ajan daha gelişmiştir. Şunları yapabilir:
 
 Daha fazla açıklama not defterinde mevcuttur.
 
-#### 👉 Önemli Notlar:
+#### Önemli Notlar:
 
 1. **Kolay Kurulum**: Kurulum süreci basit ve kullanıcı dostudur.
 
