@@ -15,12 +15,13 @@ The agents generate a momentum trading strategy, implement it in Python, compute
 
 Here’s a quick overview of the workflow:
 
-"""
 1- Propose a Python code implementation of a momentum trading strategy.
+
 2- Apply the strategy to NVIDIA's historical prices.
+
 3- Save the results as 'nvidia_trading_strategy.csv'.
+
 4- Plot and save the strategy in 'nvidia_trading_strategy.png'.
-"""
 
 #### Meet the Agents:
 
@@ -63,12 +64,10 @@ Ajanlar, bir momentum ticaret stratejisi oluşturur, Python ile uygular, NVIDIA'
 
 İşte iş akışının hızlı bir özeti:
 
-"""
 1- Bir momentum ticaret stratejisinin Python kodu uygulamasını önerin.
 2- Stratejiyi NVIDIA'nın geçmiş fiyatlarına uygulayın.
 3- Sonuçları 'nvidia_trading_strategy.csv' olarak kaydedin.
 4- Stratejiyi 'nvidia_trading_strategy.png' olarak çizip kaydedin.
-"""
 
 #### Ajanlarla Tanışın:
 
