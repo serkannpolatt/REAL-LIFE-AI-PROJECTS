@@ -161,7 +161,7 @@ The second one operates just like the Encoder while the first one operates sligh
 
 ---
 ## İçerik
-* **[Girdi Gömme (Input Embeddings)](#Embeddings)**
+* **[Girdi Gömme (Input Embeddings)](#Embeddings-gömmeler)**
 * **[Pozisyonel Kodlama (Postional Encoding)](#Postional-Encoding)**
 * **[Kendi Kendine Dikkat (Self Attention)](#Self-Attention)**
 * **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Multi-Head-Attention)**
@@ -172,7 +172,7 @@ The second one operates just like the Encoder while the first one operates sligh
 
 
 ---
-## Embeddings
+## Embeddings (Gömmeller)
 Kelime Gömme, her kelimenin öğrenilmiş bir vektör temsili olarak düşünülebilir. Bu vektör, bu kelimelerin bağlamsal bilgisini yakalar.
 * Sinir ağları sayılarla öğrenir, bu nedenle her kelime, o kelimeyi temsil etmek için sürekli değerlere sahip bir vektöre haritalanır.
 <kbd>
