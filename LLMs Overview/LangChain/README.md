@@ -36,7 +36,7 @@ final_prompt = prompt_template.format(sample_text = sample_text)
 print(final_prompt)
 ```
 
-* **Sohbet istemi şablonları**
+* **Chat Prompt Templates**
 ```
 from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate
 
@@ -649,7 +649,7 @@ final_prompt = prompt_template.format(sample_text = sample_text)
 print(final_prompt)
 ```
 
-* **Chat prompt templates
+* **Sohbet Prompt Şablonları**
 ```
 from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate
 
