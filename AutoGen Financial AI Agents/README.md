@@ -65,8 +65,11 @@ Ajanlar, bir momentum ticaret stratejisi oluşturur, Python ile uygular, NVIDIA'
 İşte iş akışının hızlı bir özeti:
 
 1- Bir momentum ticaret stratejisinin Python kodu uygulamasını önerin.
+
 2- Stratejiyi NVIDIA'nın geçmiş fiyatlarına uygulayın.
+
 3- Sonuçları 'nvidia_trading_strategy.csv' olarak kaydedin.
+
 4- Stratejiyi 'nvidia_trading_strategy.png' olarak çizip kaydedin.
 
 #### Ajanlarla Tanışın:
