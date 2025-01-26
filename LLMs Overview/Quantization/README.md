@@ -172,7 +172,7 @@ The way GGML quantizes weights is not as sophisticated as GPTQ’s. Basically, i
 - **[AutoGPTQ Entegrasyonu](#AutoGPTQ-Entegrasyonu)**
 - **[GGML](#GGML-Genelleştirilmiş-Grafiksel-Model-Kitaplığı)**
 - **[NF4 vs. GGML vs. GPTQ](#NF4-GGML-GPTQ)**
-- **[Kuantizasyon vs. Budama vs. Bilgi Aktarımı](#Kuantizasyon-vs.-Pruning-vs.-Bilgi-Distilasyonu)**
+- **[Kuantizasyon vs. Budama vs. Bilgi Aktarımı](#Kuantizasyon-vs-Pruning-vs-Bilgi-Distilasyonu)**
 - **[Özet](#Özet)**
 
 
