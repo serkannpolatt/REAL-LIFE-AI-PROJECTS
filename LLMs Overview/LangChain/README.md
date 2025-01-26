@@ -659,6 +659,14 @@ Göreviniz metni {output_language} diline çevirmek ve \
 çevirilen metni en fazla {max_words} kelimede özetlemektir. \
 """
 
+```
+from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate
+
+system_template = """You will provided with the sample text. \
+Your task is to translate the text into {output_language} language \
+and summarize the translated text in at most {max_words} words. \ 
+"""
+
 system_message_prompt_template = SystemMessagePromptTemplate.from_template(system_template)
 human_template = "{sample_text}"
 human_message_prompt_template = HumanMessagePromptTemplate.from_template(human_template)
@@ -670,6 +678,8 @@ final_prompt = chat_prompt_template.format_prompt(
   sample_text="Estoy deseando que llegue el fin de semana."
 ).to_messages()
 print(final_prompt)
+```
+
 
 ## Modeller
 <img src="https://miro.medium.com/v2/resize:fit:786/format:webp/1*2ZVRlCJMvg6HmM_OwL8P_Q.png">
