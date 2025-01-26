@@ -162,9 +162,9 @@ The second one operates just like the Encoder while the first one operates sligh
 ---
 ## İçerik
 * **[Girdi Gömme (Input Embeddings)](#Embeddings-Gömmeller)**
-* **[Pozisyonel Kodlama (Postional Encoding)](#Postional-Encoding)**
-* **[Kendi Kendine Dikkat (Self Attention)](#Self-Attention)**
-* **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Multi-Head-Attention)**
+* **[Pozisyonel Kodlama (Postional Encoding)](#Self-Attention-Scaled-Dot-Product-Attention))**
+* **[Kendi Kendine Dikkat (Self Attention)](#Self-Attention-Scaled-Dot-Product-Attention)**
+* **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Çoklu-Başlık-Dikkat-Multi-Head-Attention)**
 * **[Katman Normalizasyonu / Artık Bağlantılar / Besleme İleri Ağı (Layer Normalization/Residual Connections/Feed Forward Network)](#layer-normalization-residual-connections-feed-forward-network)**
 * **[Encoder](#Encoder)**
 * **[Decoder](#Decoder)**
@@ -179,11 +179,22 @@ Kelime Gömme, her kelimenin öğrenilmiş bir vektör temsili olarak düşünü
   <img width=300 src="https://miro.medium.com/v2/resize:fit:582/format:webp/0*6MnniQMOBPu4kFq3.png">
 </kbd>
 
+
+
+---
+## Postional Encoding
+Embedding (Gömme), bir token'ı d-boyutlu bir uzayda temsil eder; burada benzer anlamlara sahip token'lar birbirine daha yakındır. Ancak, bu gömme işlemi, token'ların cümle içindeki göreceli konumlarını kodlamaz.
+* Aynı şekilde, Positional Encoding (Konumsal Kodlama) da kelimelerin dizideki konumlarını kodlar.
+* Konumsal kodlamayı (positional encoding) hesaplama formülü şu şekildedir:
+<img width="500" src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*z3Rfl0wGsBsaZcprpqR8Uw.png">
+
 * Pozisyonel Kodlama (Postional Encoding), mutlak pozisyonun göreceli pozisyondan daha az önemli olduğu için çalışır.
   > örneğin, "My fried chicken was very good"
   > "Good" kelimesinin 6. indekste ve "looks" kelimesinin 5. indekste olduğunu bilmemize gerek yoktur. Yeterli olan, "good" kelimesinin genellikle "looks" kelimesini takip ettiğini hatırlamaktır.
-
 ---
+
+
+
 ## Self Attention (Scaled Dot-Product Attention)
 <kbd>
   <img width="500" src="https://miro.medium.com/v2/resize:fit:640/0*NEPbOP47PlMTXoIb">
