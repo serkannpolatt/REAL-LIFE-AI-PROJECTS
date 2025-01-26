@@ -165,9 +165,9 @@ The second one operates just like the Encoder while the first one operates sligh
 * **[Pozisyonel Kodlama (Postional Encoding)](#Postional-Encoding-Konumsal-Kodlama))**
 * **[Kendi Kendine Dikkat (Self Attention)](#Kendi-Kendine-Dikkat-Self-Attention)**
 * **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Çoklu-Başlık-Dikkat-Multi-Head-Attention)**
-* **[Katman Normalizasyonu / Artık Bağlantılar / Besleme İleri Ağı (Layer Normalization/Residual Connections/Feed Forward Network)](#layer-normalization-residual-connections-feed-forward-network)**
-* **[Encoder](#Encoder)**
-* **[Decoder](#Decoder)**
+* **[Katman Normalizasyonu / Artık Bağlantılar / Besleme İleri Ağı (Layer Normalization/Residual Connections/Feed Forward Network)](#Katman-Normalizasyonu-Artık-Bağlantılar-Besleme-İleri-Ağı-Feed-Forward-Network))**
+* **[Kodlayıcı (Encoder)](#Çözücü-Decoder))**
+* **[Çözücü (Decoder)](#Çözücü-Decoder)**
 
 
 
@@ -266,7 +266,7 @@ Artık Bağlantılar = Girdi Gömmesi (Input Embedding) + Pozisyonel Kodlama (Po
 
 
 ---
-## Encoder
+## Kodlayıcı (Encoder)
 Encoder'ın görevi, tüm giriş dizilerini bilgi taşıyan soyut sürekli bir temsile dönüştürmektir.
 * Encoder'ı N kez üst üste yığarak bilgiyi daha fazla kodlayabilirsiniz, her katman farklı dikkat temsilleri öğrenme fırsatına sahip olduğundan, bu da transformer ağının tahmin gücünü artırabilir.
 <kbd>
@@ -276,7 +276,7 @@ Encoder'ın görevi, tüm giriş dizilerini bilgi taşıyan soyut sürekli bir t
 
 
 ---
-## Decoder
+## Çözücü (Decoder)
 Decoder'ın görevi, metin dizileri üretmektir.
 
 <kbd>
