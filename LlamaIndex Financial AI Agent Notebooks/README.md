@@ -9,10 +9,15 @@ This AI Agent is equipped with a suite of pre-configured tools to help you acces
 👉 The agent interacts with various Finance Tools APIs (NEWSAPI, Polygon, Finnhub, SeekingAlpha...) to gather diverse insights:
 
 🔹 **Compare Companies**: Identify companies similar to a given stock ticker symbol.
+
 🔹 **Earnings Insights**: Retrieve historical earnings data and upcoming earnings reports.
+
 🔹 **Market Trends**: Get lists of current gainer/loser stocks, undervalued growth stocks, and the most traded stocks.
+
 🔹 **Sector-Specific Analysis**: Focus on technology growth stocks or other sector-based insights.
+
 🔹 **Trending News**: Stay updated with the latest financial news and trending Google search topics.
+
 🔹 **Stock Price Info**: Fetch real-time price data for any stock.
 
 ## 👉 Key Takeaways
@@ -32,10 +37,15 @@ Bu AI Ajanı, temel finansal verilere kolay erişim sağlamak ve analiz yapmak i
 👉 Ajan, çeşitli Finans Araçları API'leri (NEWSAPI, Polygon, Finnhub, SeekingAlpha...) ile etkileşime girerek farklı bilgiler toplar:
 
 🔹 **Şirket Karşılaştırması**: Belirli bir hisse senedi sembolüne benzer şirketleri bulun.
+
 🔹 **Kâr Analizleri**: Geçmiş kâr verilerini ve yaklaşan kâr raporlarını alın.
+
 🔹 **Piyasa Trendleri**: Mevcut kazanan/ kaybeden hisse senetleri, değeri düşük büyüme hisse senetleri ve en çok işlem gören hisse senetlerinin listelerini alın.
+
 🔹 **Sektöre Özel Analizler**: Teknoloji büyüme hisse senetlerine veya diğer sektörlere özel analizler yapın.
+
 🔹 **Popüler Haberler**: En güncel finansal haberlerle ve Google arama trendleriyle güncel kalın.
+
 🔹 **Hisse Fiyatı Bilgisi**: Herhangi bir hisse senedinin anlık fiyat bilgisini alın.
 
 ## 👉 Önemli Çıkarımlar
