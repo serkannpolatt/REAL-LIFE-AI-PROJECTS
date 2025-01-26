@@ -163,7 +163,7 @@ The second one operates just like the Encoder while the first one operates sligh
 ## İçerik
 * **[Girdi Gömme (Input Embeddings)](#Embeddings-Gömmeller)**
 * **[Pozisyonel Kodlama (Postional Encoding)](#Postional-Encoding-Konumsal-Kodlama))**
-* **[Kendi Kendine Dikkat (Self Attention)](#Self-Attention-Scaled-Dot-Product-Attention)**
+* **[Kendi Kendine Dikkat (Self Attention)](#Kendi-Kendine-Dikkat-Self-Attention)**
 * **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Çoklu-Başlık-Dikkat-Multi-Head-Attention)**
 * **[Katman Normalizasyonu / Artık Bağlantılar / Besleme İleri Ağı (Layer Normalization/Residual Connections/Feed Forward Network)](#layer-normalization-residual-connections-feed-forward-network)**
 * **[Encoder](#Encoder)**
@@ -196,7 +196,7 @@ Embedding (Gömme), bir token'ı d-boyutlu bir uzayda temsil eder; burada benzer
 
 
 
-## Self Attention (Scaled Dot-Product Attention)
+## Kendi Kendine Dikkat (Self Attention)
 <kbd>
   <img width="500" src="https://miro.medium.com/v2/resize:fit:640/0*NEPbOP47PlMTXoIb">
 </kbd>
