@@ -643,28 +643,19 @@ Göreviniz metni dilbilgisel olarak doğru olacak şekilde yeniden yazmaktır. \
 Çıktı: 
 """
 prompt_template = PromptTemplate.from_template(template = template)
-
-```
 sample_text = "Ben kedileri köpeklerden daha çok severim. Onlar çok yükseğe zıplar!"
-```
 
 final_prompt = prompt_template.format(sample_text = sample_text)
 print(final_prompt)
 ```
 
+* **Chat prompt templates
+```
 from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate
 
 system_template = """Size örnek metin sağlanacaktır. \
 Göreviniz metni {output_language} diline çevirmek ve \
 çevirilen metni en fazla {max_words} kelimede özetlemektir. \
-"""
-
-```
-from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate, ChatPromptTemplate
-
-system_template = """You will provided with the sample text. \
-Your task is to translate the text into {output_language} language \
-and summarize the translated text in at most {max_words} words. \ 
 """
 
 system_message_prompt_template = SystemMessagePromptTemplate.from_template(system_template)
