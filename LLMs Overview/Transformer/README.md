@@ -162,7 +162,7 @@ The second one operates just like the Encoder while the first one operates sligh
 ---
 ## İçerik
 * **[Girdi Gömme (Input Embeddings)](#Embeddings-Gömmeller)**
-* **[Pozisyonel Kodlama (Postional Encoding)](#Self-Attention-Scaled-Dot-Product-Attention))**
+* **[Pozisyonel Kodlama (Postional Encoding)](#Postional-Encoding-Konumsal-Kodlama))**
 * **[Kendi Kendine Dikkat (Self Attention)](#Self-Attention-Scaled-Dot-Product-Attention)**
 * **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Çoklu-Başlık-Dikkat-Multi-Head-Attention)**
 * **[Katman Normalizasyonu / Artık Bağlantılar / Besleme İleri Ağı (Layer Normalization/Residual Connections/Feed Forward Network)](#layer-normalization-residual-connections-feed-forward-network)**
@@ -182,7 +182,8 @@ Kelime Gömme, her kelimenin öğrenilmiş bir vektör temsili olarak düşünü
 
 
 ---
-## Postional Encoding
+## Postional Encoding (Konumsal Kodlama)
+
 Embedding (Gömme), bir token'ı d-boyutlu bir uzayda temsil eder; burada benzer anlamlara sahip token'lar birbirine daha yakındır. Ancak, bu gömme işlemi, token'ların cümle içindeki göreceli konumlarını kodlamaz.
 * Aynı şekilde, Positional Encoding (Konumsal Kodlama) da kelimelerin dizideki konumlarını kodlar.
 * Konumsal kodlamayı (positional encoding) hesaplama formülü şu şekildedir:
