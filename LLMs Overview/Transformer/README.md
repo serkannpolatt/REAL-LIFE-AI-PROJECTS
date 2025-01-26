@@ -166,7 +166,7 @@ The second one operates just like the Encoder while the first one operates sligh
 * **[Kendi Kendine Dikkat (Self Attention)](#Kendi-Kendine-Dikkat-Self-Attention)**
 * **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Çoklu-Başlık-Dikkat-Multi-Head-Attention)**
 * **[Katman Normalizasyonu / Artık Bağlantılar / Besleme İleri Ağı (Layer Normalization/Residual Connections/Feed Forward Network)](#Katman-Normalizasyonu-Artık-Bağlantılar-Besleme-İleri-Ağı-Feed-Forward-Network))**
-* **[Kodlayıcı (Encoder)](#Çözücü-Decoder))**
+* **[Kodlayıcı (Encoder)](#Kodlayıcı-Encoder)**
 * **[Çözücü (Decoder)](#Çözücü-Decoder)**
 
 
@@ -248,7 +248,7 @@ Tek bir başlık dikkat yerine, Q, K ve V birden fazla başlığa bölünür. Bu
 
 
 ---
-## Katman Normalizasyonu / Artık Bağlantılar / Besleme İleri Ağı (Feed Forward Network)
+## Katman Normalizasyonu, Artık Bağlantılar, Besleme İleri Ağı (Feed Forward Network)
 Artık Bağlantılar = Girdi Gömmesi (Input Embedding) + Pozisyonel Kodlama (Positional Encoding), Çoklu Başlık Dikkat (Multi-Head Attention) ile eklenir.
 
 * Normalizasyon, Ortalama = 0 ve varyans = 1 olma durumudur.
