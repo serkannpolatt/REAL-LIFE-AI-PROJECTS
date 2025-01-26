@@ -161,7 +161,7 @@ The second one operates just like the Encoder while the first one operates sligh
 
 ---
 ## İçerik
-* **[Girdi Gömme (Input Embeddings)](#Embeddings-gömmeler)**
+* **[Girdi Gömme (Input Embeddings)](#Embeddings-Gömmeller)**
 * **[Pozisyonel Kodlama (Postional Encoding)](#Postional-Encoding)**
 * **[Kendi Kendine Dikkat (Self Attention)](#Self-Attention)**
 * **[Çoklu Başlık Dikkat (Multi-Head Attention)](#Multi-Head-Attention)**
