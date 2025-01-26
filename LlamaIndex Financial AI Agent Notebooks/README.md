@@ -22,8 +22,11 @@ This AI Agent is equipped with a suite of pre-configured tools to help you acces
 
 ## 👉 Key Takeaways
 In the notebook, I made some calls to get Amazon's price, the latest news, and earnings information...
+
 ▪ Overall, this agent is a great starting point for building your own finance tool.
+
 ▪ While some functions might not yield expected results, you can take inspiration from the work done here to further develop and customize it for your specific needs.
+
 ▪ You can also enhance performance by using another LLM, like Claude 3.5 Sonnet, as an AI Agent.
 
 ### TR
@@ -50,6 +53,9 @@ Bu AI Ajanı, temel finansal verilere kolay erişim sağlamak ve analiz yapmak i
 
 ## 👉 Önemli Çıkarımlar
 Defterde, Amazon'un fiyatı, son haberler ve kâr verileri hakkında bazı sorgular yaptım...
+
 ▪ Genel olarak, bu ajan, kendi finans aracınızı oluşturmak için iyi bir başlangıç noktasıdır.
+
 ▪ Bazı işlevler beklenen sonuçları vermese de, burada yapılan işten ilham alabilir ve kendi kullanım durumunuza göre geliştirebilirsiniz.
+
 ▪ Ayrıca performansı artırmak için başka bir LLM, örneğin Claude 3.5 Sonnet, kullanarak ajanın performansını iyileştirebilirsiniz.
