@@ -34,6 +34,6 @@ Bu depoyu klonlayın veya kaynak kodunu yerel makinenize indirin. Uygulama dizin
 git clone <repository_url>
 cd <application_directory>
 pip install -r requirements.txt
-streamlit run "app.py"
+streamlit run "main.py"
 ```
 
