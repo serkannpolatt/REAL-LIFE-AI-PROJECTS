@@ -588,7 +588,7 @@ FinAgents, her biri farklı uzmanlığa ve sorumluluklara sahip beş özelleşti
 FinAgents'taki ajan işbirliği, profesyonel bir finansal ekibi taklit eden yapılandırılmış bir iş akışını takip eder:
 
 <div align="center">
-  <img src="workflow.png" alt="Portföy Analiz İş Akışı" width="80%"/>
+  <img src="workflow.jpg" alt="Portföy Analiz İş Akışı" width="80%"/>
   <p><em>Ajan iletişimi ve bilgi akışının görsel temsili</em></p>
 </div>
 
