@@ -152,7 +152,7 @@ FinAgents implements a collaborative team of five specialized financial AI agent
 The agent collaboration in FinAgents follows a structured workflow that mimics a professional financial team:
 
 <div align="center">
-  <img src="workflow.png" alt="Portfolio Analysis Workflow" width="80%"/>
+  <img src="workflow.jpg" alt="Portfolio Analysis Workflow" width="80%"/>
   <p><em>Visual representation of agent communication and information flow</em></p>
 </div>
 
