@@ -10,7 +10,7 @@
 
 ## 📊 Overview
 
-FinAgents is an advanced financial portfolio analysis system that leverages multiple specialized AI agents to deliver comprehensive investment insights. By simulating a team of financial professionals, each with their own expertise, the system provides:
+Multi-Agent Detailed Financial System is an advanced financial portfolio analysis system that leverages multiple specialized AI agents to deliver comprehensive investment insights. By simulating a team of financial professionals, each with their own expertise, the system provides:
 
 - 📈 Detailed risk assessments and mitigation strategies
 - 🌎 In-depth market analyses and sector-specific recommendations
@@ -42,18 +42,7 @@ FinAgents is an advanced financial portfolio analysis system that leverages mult
 - **Professional Visualizations**: Automated generation of key portfolio charts and metrics
 - **PDF Reporting**: Complete investment reports in a professional format
 
-## 🏗️ Architecture
 
-FinAgents employs a modular architecture that separates concerns into clear domains:
-
-```
-FinAgents/
-├── models/          # Core data models and agent definitions
-├── visualization/   # Charting and data visualization
-├── reporting/       # PDF report generation capabilities
-├── utils/           # Helper functions and utilities
-└── main.py          # Main application entry point
-```
 
 ## 🧠 How Multi-Agent Systems Work
 
@@ -888,7 +877,7 @@ Her bir modül şu görevleri yerine getirir:
 
 ### 🏁 Sonuç
 
-FinAgents, finansal analizde çoklu ajan yapay zeka sistemlerinin gücünü göstermektedir. Uzmanlaşmış finansal uzmanlardan oluşan bir ekibi simüle ederek, geleneksel olarak birden fazla insan analistinin gerektirecek kapsamlı portföy öngörüleri sağlar.
+Multi-Agent Detailed Financial System, finansal analizde çoklu ajan yapay zeka sistemlerinin gücünü göstermektedir. Uzmanlaşmış finansal uzmanlardan oluşan bir ekibi simüle ederek, geleneksel olarak birden fazla insan analistinin gerektirecek kapsamlı portföy öngörüleri sağlar.
 
 Modüler tasarım, ek ajanlarla genişletilmesi, mevcut analiz tekniklerinin geliştirilmesi veya farklı finansal piyasalara ve enstrümanlara adapte edilmesi kolaydır.
 
