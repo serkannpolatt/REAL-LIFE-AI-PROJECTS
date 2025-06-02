@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+# Ignorar PDFs mas permitir o relatório de exemplo
+*.pdf
+!Portfolio_Investment_Report_2025-03-12.pdf
+# Permitir arquivos PNG na pasta charts e o diagrama de workflow
+/*.png
+# Permitir o diagrama de workflow
+!portfolio_workflow.png
+!charts/
+!charts/*.png
+Portfolio_Investment_Report_*.txt
+portfolio_workflow.dot
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+logs/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+.Python
