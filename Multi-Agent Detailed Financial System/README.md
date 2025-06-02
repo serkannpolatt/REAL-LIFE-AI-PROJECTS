@@ -1,7 +1,7 @@
 # 🤖 Multi-Agent Detailed Financial System
 
 <div align="center">
-  <img src="workflow.png" alt="Portfolio Analysis Workflow" width="80%"/>
+  <img src="workflow.jpg" alt="Portfolio Analysis Workflow" width="80%"/>
   <p><em>AI-powered collaborative financial analysis</em></p>
   
   ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
