@@ -1,0 +1,27 @@
+# Core AI Framework
+phidata>=2.5.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Financial Data APIs
+yfinance>=0.2.18
+
+# Package Management
+packaging>=23.0
+
+# Web Search
+duckduckgo-search>=3.8.0
+
+# Web Framework (Optional - for future web interface)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# LLM APIs
+groq>=0.4.0
+openai>=1.0.0
+
+# Additional utilities
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
