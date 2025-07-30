@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![Groq](https://img.shields.io/badge/LLM-Groq%20LLaMA3-green.svg)](https://groq.com)
 [![PhiData](https://img.shields.io/badge/Framework-PhiData-orange.svg)](https://github.com/phidatahq/phidata)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 This project is a **comprehensive financial analysis AI system** built with modular architecture using **Groq LLaMA3**, **YFinance**, and **DuckDuckGo** technologies. It features a multi-agent system with specialized capabilities for stock analysis, market research, risk assessment, and portfolio optimization.
 
@@ -403,51 +402,3 @@ assert not agent.is_initialized  # Before initialization
 - Use environment variables for sensitive data
 
 ---
-
-## 🤝 Contributing
-
-We welcome contributions to improve the system:
-
-1. Fork this repository
-2. Create a feature branch (`git checkout -b new-feature`)
-3. Commit your changes (`git commit -am 'Add new feature: xyz'`)
-4. Push to the branch (`git push origin new-feature`)
-5. Create a Pull Request
-
-### 🛠️ **Development Guidelines**
-- Follow PEP 8 style guidelines
-- Add comprehensive docstrings
-- Include unit tests for new features
-- Update documentation for new capabilities
-
----
-
-## 📞 Support and Contact
-
-- 🐛 **Bug Reports**: [Issues](https://github.com/username/finance-advisor-ai-agent/issues)
-- 💡 **Feature Requests**: [Discussions](https://github.com/username/finance-advisor-ai-agent/discussions)
-- 📧 **Direct Contact**: [support@financialai.com](mailto:support@financialai.com)
-- 📚 **Documentation**: [Wiki](https://github.com/username/finance-advisor-ai-agent/wiki)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-This project is made possible by these amazing technologies:
-
-- [PhiData](https://github.com/phidatahq/phidata) - AI Agent Framework
-- [Groq](https://groq.com) - LLaMA3 LLM API  
-- [YFinance](https://github.com/ranaroussi/yfinance) - Financial Data API
-- [DuckDuckGo](https://duckduckgo.com) - Privacy-focused Search
-- [NumPy](https://numpy.org) - Numerical Computing
-- [Pandas](https://pandas.pydata.org) - Data Analysis
-- [SciPy](https://scipy.org) - Scientific Computing
-
----
-
