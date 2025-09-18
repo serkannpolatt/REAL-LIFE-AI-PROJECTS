@@ -1,0 +1,25 @@
+# Agentic AI System Requirements
+# =================================
+
+# Core AI/ML Libraries
+langchain==0.3.27
+langchain-groq>=0.1.0
+langchain_google_genai==2.1.9
+
+# Environment Management
+python-dotenv==1.1.1
+
+# Web Interface
+streamlit==1.48.0
+pandas>=1.5.0
+
+# Additional utilities
+typing-extensions>=4.0.0
+
+# Database
+# sqlite3 - comes with Python standard library
+
+# Development Dependencies (optional)
+# pytest>=7.0.0  # For testing
+# black>=22.0.0  # For code formatting
+# flake8>=5.0.0  # For linting
