@@ -1,0 +1,38 @@
+[
+    {
+        "name": "InfraAgent",
+        "description": "Handles infrastructure issues such as WiFi problems, power outages, HVAC issues, and facility maintenance requests.",
+        "file": "infra_agent",
+        "function": "handle_infra_issue"
+    },
+    {
+        "name": "HRAgent", 
+        "description": "Manages HR-related matters including leave applications, employee complaints, policy inquiries, and resignation processes.",
+        "file": "hr_agent",
+        "function": "handle_hr_issue"
+    },
+    {
+        "name": "ITAgent",
+        "description": "Provides technical support for software issues, hardware problems, network connectivity, and login difficulties.", 
+        "file": "it_agent",
+        "function": "handle_it_issue"
+    },
+    {
+        "name": "FinanceAgent",
+        "description": "Handles financial matters including salary inquiries, expense reimbursements, payment issues, and budget requests.",
+        "file": "finance_agent", 
+        "function": "handle_finance_issue"
+    },
+    {
+        "name": "AdminAgent",
+        "description": "Manages administrative tasks such as access requests, office supplies, meeting room bookings, and general support.",
+        "file": "admin_agent",
+        "function": "handle_admin_issue"
+    },
+    {
+        "name": "TicketStatusAgent",
+        "description": "Checks ticket status, provides ticket information, and handles ticket closing operations based on user requests.",
+        "file": "ticket_status_agent",
+        "function": "handle_ticket_status"
+    }
+]
