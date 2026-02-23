@@ -1,0 +1,62 @@
+/**
+ * AI Stock Analysis Assistant - Global Styles
+ *
+ * This stylesheet contains global styles and layout rules
+ * for the stock analysis chat application.
+ *
+ * @author AI Stock Analysis Team
+ * @version 1.0.0
+ */
+
+/* ==============================================================================
+   CSS RESET & BASE STYLES
+   ============================================================================== */
+
+/**
+ * Reset default browser styles for html and body elements.
+ * This ensures consistent rendering across different browsers.
+ */
+html,
+body {
+  margin: 0;                        /* Remove default margin */
+  padding: 0;                       /* Remove default padding */
+  height: 100%;                     /* Full viewport height */
+  overflow: hidden;                 /* Prevent scrollbars on body */
+  font-family: "Inter", sans-serif; /* Modern, readable font */
+}
+
+/* ==============================================================================
+   ROOT CONTAINER STYLES
+   ============================================================================== */
+
+/**
+ * Root element styling.
+ * This is the container where React mounts the application.
+ */
+#root {
+  width: 100%;   /* Full width of viewport */
+  height: 100%; /* Full height of viewport */
+}
+
+/* ==============================================================================
+   APPLICATION CONTAINER STYLES
+   ============================================================================== */
+
+/**
+ * Main application container.
+ * Contains the chat interface and fills the entire viewport.
+ */
+.app-container {
+  width: 100%;           /* Full viewport width */
+  height: 100vh;         /* Full viewport height using vh units */
+  overflow: hidden;      /* Prevent content overflow */
+}
+
+/**
+ * Force Inter font on all elements within the app container.
+ * The !important flag ensures this overrides any component library styles.
+ */
+.app-container,
+.app-container * {
+  font-family: "Inter", sans-serif !important;
+}
