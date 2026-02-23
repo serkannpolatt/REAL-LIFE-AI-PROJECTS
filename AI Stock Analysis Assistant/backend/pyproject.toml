@@ -1,0 +1,49 @@
+# ==============================================================================
+# AI Stock Analysis Assistant - Backend Configuration
+# ==============================================================================
+#
+# This file defines the Python project configuration using the pyproject.toml
+# format (PEP 517/518). It specifies project metadata, dependencies, and
+# other build-related settings.
+#
+# Author: AI Stock Analysis Team
+# Version: 1.0.0
+# ==============================================================================
+
+[project]
+# Project name identifier
+name = "ai-stock-analysis-backend"
+
+# Semantic version number (MAJOR.MINOR.PATCH)
+version = "1.0.0"
+
+# Brief description of the project
+description = "AI-powered stock analysis assistant backend with LangChain integration"
+
+# Path to the README file for PyPI
+readme = "README.md"
+
+# Minimum Python version required
+requires-python = ">=3.12"
+
+# Project dependencies
+# Each dependency includes minimum version for compatibility
+dependencies = [
+    # FastAPI - Modern, fast web framework for building APIs
+    "fastapi>=0.123.7",
+
+    # LangChain with OpenAI integration - AI agent framework
+    "langchain[openai]>=1.1.0",
+
+    # Pydantic - Data validation using Python type annotations
+    "pydantic>=2.12.5",
+
+    # python-dotenv - Load environment variables from .env file
+    "python-dotenv>=1.2.1",
+
+    # Uvicorn - Lightning-fast ASGI server
+    "uvicorn>=0.38.0",
+
+    # yfinance - Yahoo Finance API wrapper for stock data
+    "yfinance>=0.2.66",
+]
